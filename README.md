@@ -50,3 +50,22 @@ See `SETUP_WINDOWS.md` for the full step-by-step guide.
 3. **Extreme-heat days per year** (TMAX > 35 °C)
 
 All three plots are saved to `report/graphics/` and embedded in `report/report.md`.
+
+## Dataset
+
+This project uses NOAA GHCN-Daily weather data from 2020–2024.
+
+Official NOAA dataset:
+https://www.ncei.noaa.gov/pub/data/ghcn/daily/
+
+Yearly files:
+https://www.ncei.noaa.gov/pub/data/ghcn/daily/by_year/
+
+Files used:
+- 2020.csv.gz
+- 2021.csv.gz
+- 2022.csv.gz
+- 2023.csv.gz
+- 2024.csv.gz
+
+Due to GitHub file size limitations, the dataset is not included in this repository.
